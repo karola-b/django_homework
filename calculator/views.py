@@ -16,3 +16,16 @@ def calculator_add(request, num1, num2):
             "sum": added_nums
         }
     )
+
+
+def subtract(request, num1, num2):
+    subtract_nums = num1 - num2
+    return render(
+        request,
+        'subtract.html',
+        context={
+            "num1": num1,
+            "num2": num2,
+            "subtract": subtract_nums
+        }
+    )
