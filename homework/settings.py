@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # local apps
     'calculator.apps.CalculatorConfig'
+    'monday.apps.MondayConfig'
 ]
 
 MIDDLEWARE = [
