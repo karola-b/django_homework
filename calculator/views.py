@@ -29,3 +29,16 @@ def subtract(request, num1, num2):
             "subtract": subtract_nums
         }
     )
+
+
+def divide(request, num1, num2):
+    divided_nums = num1 / num2
+    return render(
+        request,
+        'divide.html',
+        context={
+            "num1": num1,
+            "num2": num2,
+            "division": divided_nums
+        }
+    )
