@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # local apps
-    'calculator.apps.CalculatorConfig'
-    'monday.apps.MondayConfig'
+    'calculator.apps.CalculatorConfig',
+    'monday.apps.MondayConfig',
 ]
 
 MIDDLEWARE = [
