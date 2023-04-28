@@ -1,3 +1,8 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def business_card(request):
+    return render(
+        request,
+        'business_card.html'
+    )
