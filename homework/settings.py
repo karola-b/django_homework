@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # local apps
     'calculator.apps.CalculatorConfig',
     'monday.apps.MondayConfig',
+    'businesscard.apps.BusinesscardConfig'
 ]
 
 MIDDLEWARE = [
